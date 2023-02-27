@@ -19,3 +19,4 @@ class Test_Login:
         Log.Set_Email(self.UserEmail)
         Log.Set_Password(self.Password)
         Log.Click_Login()
+        print(driver.title)
